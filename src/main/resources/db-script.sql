@@ -1,3 +1,4 @@
+
 CREATE TABLE user
 (
     id          CHAR(36) PRIMARY KEY,
@@ -6,7 +7,6 @@ CREATE TABLE user
     full_name   VARCHAR(200)        NOT NULL,
     profile_pic VARCHAR(500)
 );
-
 CREATE TABLE task_list
 (
     id      INT AUTO_INCREMENT PRIMARY KEY,
